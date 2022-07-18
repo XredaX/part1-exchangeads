@@ -1,1 +1,1 @@
-worker: python copymsg.py
+worker: python remember.py
