@@ -11,6 +11,6 @@ def job1():
     send_msg()
 
 print("Start remember")
-schedule.every().day.at("05:48").do(job1)
+schedule.every(3).minutes.do(job1)
 while True:
    schedule.run_pending()
